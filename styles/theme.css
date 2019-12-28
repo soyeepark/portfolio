@@ -85,6 +85,7 @@ img{
 @media (max-width: 640px) {
 .bio-photo {
         width: 100%;
+        height: auto;
     }
 }
 
@@ -117,4 +118,11 @@ img{
 text-align: center;
 margin-right: 10%;
 margin-left: 10%;
+}
+
+@media (max-width: 640px) {
+    .copyright {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
 }
