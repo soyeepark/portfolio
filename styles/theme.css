@@ -12,8 +12,9 @@ h1 {
 }
 
 img{
-    max-width: 100%;
+    max-width: 100% !important;
     height: auto;
+    display: flex;
 }
 
 /* navigation bar */
