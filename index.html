@@ -4,18 +4,17 @@
     <meta charset = "utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> SoYee Park </title>
-    <link rel= "stylesheet" type ="text/css" href="styles/theme.css">
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap and CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel= "stylesheet" type ="text/css" href="styles/theme.css">
 </head>
 <body>
-
+    <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"> SoYee Park </a>
+        <a class="navbar-brand" href="index.html"> <img src="images/logo.png" alt="logo"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto topnav">
                 <li class="nav-item active">
@@ -31,63 +30,71 @@
         </div>
     </nav>
 
+    <!-- Introduction header-->
     <div class="container-fluid intro">
         <div class="row">
-                <div class = "intro-text">
-                <h1 style="margin-bottom: 2px">SoYee Park </h1>
-                <h3 style="margin-top: 0px; margin-bottom: 30px;"> Information Science Student @ Cornell University </h3>
-                <p> designer/ creator/ artist / writer / problem-solver.</p>
-                </div>
+            <div class="intro-text">
+                <h1> Hi 👋 I'm SoYee </h1>
+                <h3 class="text-muted"> Information Science Student @ Cornell University </h3>
+                <p> Designer/ Student / Artist / Writer / Problem-solver</p>
             </div>
         </div>
+    </div>
 
-
-    <div class = "container-fluid work">
-        <div class="row work-experience">
+    <!-- Projects -->
+    <div class="container-fluid">
+        <div class="row box">
             <img class="project_image" src="images/facebook.png" alt="Facebook Birthdays">
             <div class="des">
-                <h3 class = "text-primary">Facebook Birthdays</h3>
-                <h4 class = "text-muted small text-uppercase"> Project Design (Side Project) // Fall 2019</h4>
+                <h3 class="text-primary">Facebook Birthdays</h3>
+                <h4 class="text-muted small text-uppercase"> Project Design (Side Project) // Fall 2019</h4>
                 <p> A case study redesigning birthday celebrations on facebook</p>
-                <button type = "button" class = "btn btn-secondary"> Read More </button>
+                <a href="https://medium.com/@soyeepark/facebook-birthdays-celebrating-more-meaningful-birthdays-48181cc09f2f" class="btn btn-info btn-dark" role="button"> Read More </a>
             </div>
         </div>
 
-        <div class="row work-experience">
+        <div class="row box">
             <img class="project_image" src="images/meet.png" alt="Meet&Dine">
             <div class="des">
-                <h3 class = "text-primary"> Meet&Dine </h3>
-                <h4 class = "text-muted small text-uppercase"> Project Design (Side Project) // Fall 2019 </h4>
-            <p> Hack Challenge by CU App dev </p>
-            <button type = "button" class = "btn btn-secondary"> Read More </button>
+                <h3 class="text-primary"> Meet&Dine </h3>
+                <h4 class="text-muted small text-uppercase"> Project Design (Side Project) // Fall 2019 </h4>
+                <p> Hack Challenge by CU App dev </p>
+                <a href="https://medium.com/@soyeepark/meet-dine-hack-challenge-acb371da43e7" class="btn btn-info btn-dark" role="button"> Read More </a>
             </div>
         </div>
-
-        <div class="row work-experience">
+        <div class="row box">
             <img class="project_image" src="images/imagine.png" alt=" ImaginexLab">
             <div class="des">
-                <h3 class = "text-primary"> Imagine X Lab </h3>
-                <h4 class = "text-muted small text-uppercase"> Interaction Design Research // Summer 2019 </h4>
-            <p> Hack Challenge by CU App dev </p>
-            <button type = "button" class = "btn btn-secondary"> Read More </button>
+                <h3 class="text-primary"> Imagine X Lab </h3>
+                <h4 class="text-muted small text-uppercase"> Interaction Design Research // Summer 2019 </h4>
+                <p> Hack Challenge by CU App dev </p>
+                <a href="https://medium.com/@soyeepark/sentory-imaginexlab-f8077d2d7ea2" class="btn btn-info btn-dark" role="button"> Read More </a>
             </div>
         </div>
 
-        <div class="row work-experience">
+        <div class="row box">
             <img class="project_image" src="images/robots.png" alt=" ImaginexLab">
             <div class="des">
-                <h3 class = "text-primary"> Robots in Groups Lab </h3>
-                <h4 class = "text-muted small text-uppercase"> HCI & HRI Research // Fall 2019 - Present </h4>
-            <p> Hack Challenge by CU App dev </p>
-            <button type = "button" class = "btn btn-secondary"> Coming Soon </button>
+                <h3 class="text-primary"> Robots in Groups Lab </h3>
+                <h4 class="text-muted small text-uppercase"> HCI & HRI Research // Fall 2019 - Present </h4>
+                <p> Hack Challenge by CU App dev </p>
+                <button type="button" class="btn btn-secondary"> Coming Soon </button>
             </div>
         </div>
-
-        <!-- Optional JavaScript -->
-   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </div>
-</body>
-</html>
+    <!-- Copyright and Contacts -->
+    <p class="copyright">
+        Thanks for visiting! Say hi 👋 on <a href="https://medium.com/@soyeepark">Medium</a>,
+        <a target="_blank" href="https://www.linkedin.com/in/soyee-park-6a4b94174/">LinkedIn</a>, or
+        <a target="_blank" href="mailto:sp798@cornell.edu">Email</a>.
+    </p>
+    <p class="copyright">© 2019 SoYee Park</p>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+
+    </html>
