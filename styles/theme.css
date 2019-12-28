@@ -53,7 +53,7 @@ img{
 }
 
 .project_image {
-    /* width: 35%; */
+    width: 35%;
     margin-right: 6%;
 }
 
@@ -67,7 +67,8 @@ img{
 
 @media (max-width: 640px) {
     .project_image {
-        /* width: 80%; */
+        width: 100%;
+        height: auto;
         margin-right: 0;
         margin-bottom: 3rem;
     }
@@ -78,15 +79,16 @@ img{
 }
 
 /* About page */
-/* .bio-photo{
+.bio-photo{
     width: 20%;
-} */
+}
 
-/* @media (max-width: 640px) {
+@media (max-width: 640px) {
 .bio-photo {
-        width: 40%;
+        width: 100%;
+        height: auto;
     }
-} */
+}
 
 .spacing {
     margin-right: 5%;
@@ -107,6 +109,7 @@ img{
 @media (max-width: 640px) {
 .gallery {
         width: 80%;
+        height: auto;
         padding:5%;
         margin-left: 10%;
     }
