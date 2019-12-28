@@ -13,8 +13,7 @@ h1 {
 
 img{
     max-width: 100% !important;
-    height: auto;
-    display: flex;
+    height: auto !important;
 }
 
 /* navigation bar */
@@ -68,7 +67,7 @@ img{
 
 @media (max-width: 640px) {
     .project_image {
-        width: 80%;
+        width: 100% !important;
         margin-right: 0;
         margin-bottom: 3rem;
     }
