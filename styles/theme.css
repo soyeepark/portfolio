@@ -67,8 +67,7 @@ img{
 
 @media (max-width: 640px) {
     .project_image {
-        width: 100%;
-        height: auto;
+        width: 80%;
         margin-right: 0;
         margin-bottom: 3rem;
     }
@@ -85,8 +84,7 @@ img{
 
 @media (max-width: 640px) {
 .bio-photo {
-        width: 100%;
-        height: auto;
+        width: 40%;
     }
 }
 
@@ -109,7 +107,6 @@ img{
 @media (max-width: 640px) {
 .gallery {
         width: 80%;
-        height: auto;
         padding:5%;
         margin-left: 10%;
     }
