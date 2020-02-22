@@ -138,9 +138,9 @@ margin-left: 10%;
 
 /* imagine */
 .margin {
-    margin-left: 15%;
-    margin-right: 15%;
-    line-height: 180%;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    line-height: 180% !important;
 }
 
 iframe, object, embed {
@@ -149,8 +149,8 @@ iframe, object, embed {
 }
 
 .subt{
-    border-bottom: solid 5px #ffd66b;
-    padding-bottom: 3px;
+    border-bottom: solid 5px #ffd66b !important;
+    padding-bottom: 3px !important;
     }
 
 .img_center{
