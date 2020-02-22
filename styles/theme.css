@@ -6,9 +6,9 @@ h1 {
     font-size: 40px;
 }
 
-h2 {
+/* h2 {
     font-size: 28px;
-}
+} */
 
 .box {
     margin: 60px 0;
@@ -149,7 +149,8 @@ iframe, object, embed {
     margin-top: 3%;
 }
 
-.subt h2{
+h2 {
+    font-size: 28px;
     border-bottom: solid 5px #ffd66b;
     padding-bottom: 3px ;
     }
