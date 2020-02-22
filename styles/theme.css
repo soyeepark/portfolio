@@ -6,10 +6,6 @@ h1 {
     font-size: 40px;
 }
 
-/* h2 {
-    font-size: 28px;
-} */
-
 .box {
     margin: 60px 0;
     justify-content: center;
@@ -40,12 +36,6 @@ img{
   font-size: 20px;
 }
 
-@media (max-width: 640px) {
-.navbar-nav li{
-    text-align: center;
-}
-}
-
 /* Work page*/
 .intro-text {
     margin-left: 12%;
@@ -72,33 +62,9 @@ img{
     margin-right: 10px;
 }
 
-@media (max-width: 640px) {
-    .project_image {
-        width: 100% ;
-        margin-right: 0;
-        margin-bottom: 3rem;
-    }
-    .des {
-        width: 80%;
-        text-align: left;
-    }
-}
-
 /* About page */
 .bio-photo{
     width: 20%;
-}
-
-@media (max-width: 640px) {
-.bio-photo {
-        width: 100%;
-        height: auto;
-    }
-}
-
-.hmw {
-    margin:7%;
-
 }
 
 /* Fun page */
@@ -128,20 +94,15 @@ margin-right: 10%;
 margin-left: 10%;
 }
 
-@media (max-width: 640px) {
-    .copyright {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-
-}
-
-/* imagine */
+/* individual project */
 body .margin {
     margin-left: 15%;
     margin-right: 15%;
     line-height: 180%;
+}
+
+.hmw {
+    margin:7%;
 }
 
 iframe, object, embed {
@@ -176,4 +137,45 @@ iframe, object, embed {
 .cover {
 margin-top: 2%;
 margin-bottom: 5%;
+}
+
+@media (max-width: 640px) {
+    .navbar-nav li{
+        text-align: center;
+    }
+
+    /* work page */
+    .project_image {
+        width: 100% ;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+    .des {
+        width: 80%;
+        text-align: left;
+    }
+
+    /* Bio photo */
+    .bio-photo {
+            width: 100%;
+            height: auto;
+        }
+
+    /* copyright */
+    .copyright {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    /* individual protjects */
+    body .margin {
+        margin-left: 8%;
+        margin-right: 8%;
+        line-height: 180%;
+    }
+    .img_center{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
 }
