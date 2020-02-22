@@ -130,17 +130,14 @@ margin-left: 10%;
         margin-left: 10%;
     }
 
-    .margin {
-        margin-left: none;
-        margin-right: none;
-    }
+
 }
 
 /* imagine */
 .margin {
-    margin-left: 15% !important;
-    margin-right: 15% !important;
-    line-height: 180% !important;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 180%;
 }
 
 iframe, object, embed {
@@ -149,8 +146,8 @@ iframe, object, embed {
 }
 
 .subt{
-    border-bottom: solid 5px #ffd66b !important;
-    padding-bottom: 3px !important;
+    border-bottom: solid 5px #ffd66b;
+    padding-bottom: 3px ;
     }
 
 .img_center{
