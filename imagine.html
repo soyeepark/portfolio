@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> SoYee Park </title>
+    <!-- Bootstrap and CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/theme.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"> <img src="images/logo.png" alt="logo"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto topnav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"> Work <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="fun.html"> Fun </a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"> About </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- cover photo -->
+    <img class="cover" src="images/imaginecover.png" alt="photo" />
+
+    <!-- context starts -->
+<div class="margin">
+        <h1> <strong> Multisensory Prototype @ Imagine X Lab </strong> </h1> <br />
+        <p> <strong> My Role: </strong> User research, Interaction design <br />
+            <strong> Timeline: </strong> 1 month <br />
+            <strong> Team: </strong> Hyemin Lee (engineer), Samuele (engineer), Me <br />
+            <strong> Summary: </strong> After conducting user research, I proposed a
+            way to add interaction to create a full multi-sensory experience on the
+            prototype.
+        </p> <br/>
+
+        <h2 class= "subt"> About the Prototype </h2>
+        <br/>
+        <p> Multisensory integration has been actively discussed in fields like
+            neuroscience. Research shows that simultaneously triggering our 5
+            senses enhance the contextual learning experience. <br />
+            <br />
+            This prototype is an all-in-one multisensory stimulating artwork
+            that provides visual, auditory, haptic, gustatory and olfactory
+            data to the users. The prototype attempts to increase engagement
+            and user interaction in museums. The device was displayed at the
+            Natural History Gallery of Science Museum in Seoul, South Korea
+            after its completion. <br />
+            <br />
+            When the user is on the cushion, the device recognizes the user’s
+            presence by detecting the weight using the load cell sensor. Then
+            the analog data detected is converted to a digital signal through
+            the MCU, the GPIO pin of the video control device Brightsign. Using
+            the Four Brightsign devices, a video is projected using the four
+            projectors which are placed on each side.
+        </p> <br />
+
+        <img class="show" src="images/position.png" alt="photo">
+        <img class="show" src="images/construction.png" alt="photo">
+        <iframe width="660" height="415" src="https://www.youtube.com/embed/3SCXj-lBuCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="660" height="415" src="https://www.youtube.com/embed/o6vTatajtZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class = "margin"> <br/>
+        <h2 class= "subt"> User Research </h2>
+        <br/>
+        <p> We analyzed how the users interact with the device when they were
+            invited to experience the prototype. We identified two main
+            ways users interacted with the prototype:</p>
+        <p> <strong> Laying face down on the device </strong> </p>
+            <ul>
+                <li>
+                    <p> <strong> Attention: </strong> Focus on 3 out of the four videos.
+                        Video on front being the primary focus <p>
+                </li>
+                <li>
+                    <p> <strong> Movement: </strong> Same position throughout the experience </p>
+                </li>
+            </ul>
+        <p> <strong> Sitting down with one’s leg criss crossed </strong> </p>
+                <ul>
+                    <li>
+                        <p> <strong> Attention: </strong> Focus on 3 out of the four videos.
+                            Video on front being the primary focus </p>
+                    </li>
+                    <li>
+                        <p> <strong> Movement: </strong> The user looks back and faces
+                            different directions throughout the experience. </p>
+                    </li>
+                </ul>
+            <br/>
+
+        <h2 class= "subt"> Problems </h2> <br/>
+                <ol>
+                    <li>
+                        <p> <strong> The user is not an actor </strong> <br />
+                            User is not engaged in the interaction because there is no
+                            call to action to the user. The users are left always
+                            passive. Both types of users are only a spectator,
+                            who feel and see a lot of things but are not able to
+                            interact with the device. While the device was supposed to
+                            provide a multi-sensory experience, it was providing an
+                            unbalanced interaction where users were only focused on
+                            the ‘sight’. </p>
+                    </li> <br />
+                    <li>
+                        <p> <strong> The user does not actively interact with all 4 sides </strong> <br />
+                            There is limited use of the projector placed at the back of the user.
+                            The user is left in the same position once they are on the device.
+                            Even if the users view the video behind them, they do not c
+                            hange their body position, limiting the 4 sided interaction
+                            of the user. </p>
+                    </li>
+                </ol>
+                <br/>
+
+        <h2 class= "subt"> Opportunity Area </h2>
+            <h3 class="hmw"> How might we create a full ‘multi-sensory’
+                    experience that makes the user actively engaged in the experience </h3>
+
+        <h2 class= "subt"> Multi-sensory misalignment framework </h2>
+                <img class = "img_center" src="images/framework.png" alt="photo">
+
+        <h2 class= "subt"> Brainstorming </h2> <br/>
+        <p> We brainstormed different types of interactions that we could implement to
+            shift the user from a spectator to an actor. </p>
+            <img class = "img_center large" src="images/table.png" alt="photo">
+
+    <h2 class="subt"> Feasability </h2> <br/>
+       <p> <strong> Leap Motion: </strong> Low feasibility </p>
+       <ul>
+           <li>
+               <p> Distracts the video placed on the floor </p>
+           </li>
+           <li>
+               <p> The sensor cannot be placed on the ceiling because the
+                   users may use the device face down and the ceiling is too
+                   high for the sensor <p>
+           </li>
+           <li>
+               <p> Raspberry pi isn’t enough to directly run the processing power <p>
+           </li>
+       </ul>
+
+       <p> <strong> Piezo sensor: </strong> Medium feasibility </p>
+       <ul>
+           <li>
+               <p> Placing sensor inside the cushion may be difficult </p>
+           </li>
+           <li>
+               <p> Because it is an analogical sensor, we need to have an
+                   Arduino connected to the raspberry pi </p>
+           </li>
+       </ul>
+       <p> We decided to implement the hitting interaction with the Piezo sensor
+           because it was the easiest to implement. We chose to implement the
+           hitting interaction as it gave the users more freedom to interact
+           with the prototype.
+       </p>
+
+       <h2 class="subt"> Designing Experiment 1 </h2> <br/>
+         <p> In order to implement the hit interaction, we first needed to define
+             what ‘hitting’ means to the users. We wanted to understand how much
+             force they would use when they were told to ‘hit’ the device.<br />
+             <br />
+             Through this process, we tried to find the optimal threshold. In
+             doing so, we analyzed the cognitive response with different word
+             choices and body positions. <br />
+             <br />
+             The experiment was designed for <strong> 3 different conditions </strong>
+             in the following order: </p>
+
+         <ol>
+             <li>
+                 <p> Ask the users to lay on the couch in a specific position:
+                     Facedown with head towards the tip of the cusion </p>
+             </li>
+             <li>
+                 <p> Ask people to hit the sides of the device. 3 different
+                     ticker words were given to users: 'Hit', 'Tap', 'Touch'</p>
+             </li>
+         </ol>
+
+         <img class="img_center smaller" src="images/prototype.png" alt="photo">
+
+         <h2 class="subt"> Results for Experiment 1 </h2>
+          <img class="img_center" src="images/result1.png" alt="photo">
+          <img class="img_center" src="images/result2.png" alt="photo">
+          <img class="img_center" src="images/result3.png" alt="photo">
+
+         <h2 class= "subt"> Insights </h2> <br/>
+         <ul>
+             <li>
+                 <p> Harder to detect a ‘Hit’ next to the sensor than on it </p>
+             </li>
+             <li>
+                 <p> Users generally hit harder with ‘Hit’ than other words. </p>
+             </li>
+             <li>
+                 <p> Users generally tap faster with ‘Touch’ and ‘Tap’ </p>
+             </li>
+             <li>
+                 <p> Sensor is more sensitive on the curved side of the cushion </p>
+             </li>
+             <li>
+                 <p> Piezo sensors are highly inconsistent </p>
+             </li>
+         </ul>
+
+         <h2 class="subt"> Designing Experiment 2 </h2> <br/>
+         <p> In order to calculate the ideal number of sensors needed on the
+             cushion and their optimal position around the cushion, we designed
+             the following experiment: </p> <br />
+         <ol>
+             <li>
+                 <p> Position a certain number of sensors in a certain way,
+                     which has to be documented. </p>
+             </li>
+             <li>
+                 <p> Ask users to come and hit the cushion, as if they were
+                     actually living the experience ten times. </p>
+             </li>
+             <li>
+                 <p> Get the percentage of hits detected by the device in the given period of time.
+                 </p>
+             </li>
+             <li>
+                 <p> Iterate the process enough times to get a hit detection of around 95% <p>
+             </li>
+         </ol> <br />
+
+         <img class="img_center" src="images/prototype2.png" alt="photo"> <br/>
+
+        <p> Due to time constraints, I was unable to see the results of the second experiment I helped design.
+
+
+        <h2 class="subt"> Conclusion </h2> <br/>
+        <p> Upon reflection, the Multisensory prototype provided an enhancement of the current state.
+            Users found the experience more engaging and less passive. <br/> </p>
+
+    </div>
+    <p class="copyright">
+        Thanks for visiting! Say hi 👋 on <a href="https://medium.com/@soyeepark" target="_blank">Medium</a>,
+        <a href="https://www.linkedin.com/in/soyee-park-6a4b94174/" target="_blank">LinkedIn</a>, or
+        <a href="mailto:sp798@cornell.edu" target="_blank">Email</a>.
+    </p>
+    <p class="copyright">© 2019 SoYee Park</p>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

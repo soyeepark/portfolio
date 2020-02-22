@@ -11,6 +11,9 @@ h1 {
     justify-content: center;
 }
 
+p{
+font-size: 18px;}
+
 img{
     max-width: 100% !important;
     height: auto !important;
@@ -89,12 +92,13 @@ img{
     }
 }
 
-.spacing {
-    margin-right: 5%;
+.hmw {
+    margin:7%;
+
 }
 
 /* Fun page */
-
+/*
 .gallery {
     width: 95%;
 }
@@ -111,7 +115,7 @@ img{
         padding:5%;
         margin-left: 10%;
     }
-}
+} */
 
 /* contacts */
 .copyright {
@@ -125,4 +129,49 @@ margin-left: 10%;
         margin-right: 10%;
         margin-left: 10%;
     }
+
+    .margin {
+        margin-left: none;
+        margin-right: none;
+    }
+}
+
+/* imagine */
+.margin {
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 180%;
+}
+
+iframe, object, embed {
+    max-width: 100%;
+    margin-top: 3%;
+}
+
+.subt{
+    border-bottom: solid 5px #ffd66b;
+    padding-bottom: 3px;
+    }
+
+.img_center{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.smaller{
+    width: 40%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.large{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.cover {
+margin-top: 2%;
+margin-bottom: 5%;
 }
