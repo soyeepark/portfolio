@@ -46,8 +46,8 @@ img{
 }
 
 /* Work page*/
-#intro-text {
-    margin-right: 5%;
+.intro-text {
+    margin-right: 2%;
     margin-top: 5%;
 
 }
