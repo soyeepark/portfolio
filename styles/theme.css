@@ -47,17 +47,17 @@ img{
 
 /* Work page*/
 .intro-text {
-    margin-left: 12%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
 
 }
 
 .me {
     display: flex;
     flex-direction: row;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    justify-content: center;
 }
 
 .des {
