@@ -143,7 +143,7 @@ iframe, object, embed {
     width: 70%;
 }
 
-.poetry{
+.poetry img{
     display: block;
     margin: auto;
     padding-bottom: 5%;
@@ -208,7 +208,7 @@ margin-bottom: 5%;
         margin: 0 auto;
         width: 100%;
     }
-    .poetry{
+    .poetry img{
         display: block;
         margin: auto;
         padding-bottom: 5%;
