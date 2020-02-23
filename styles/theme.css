@@ -65,6 +65,7 @@ img{
 /* About page */
 .bio-photo{
     width: 20%;
+    margin-left: 5%;
 }
 
 /* Fun page */
@@ -92,6 +93,8 @@ img{
 text-align: center;
 margin-right: 10%;
 margin-left: 10%;
+margin-bottom: 5%;
+margin-top: 5%;
 }
 
 /* individual project */
@@ -138,6 +141,15 @@ iframe, object, embed {
     display: block;
     margin: 0 auto;
     width: 70%;
+}
+
+.poetry{
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
 }
 
 .smaller{
@@ -196,4 +208,13 @@ margin-bottom: 5%;
         margin: 0 auto;
         width: 100%;
     }
+    .poetry{
+        display: block;
+        margin: auto;
+        padding-bottom: 5%;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
 }
