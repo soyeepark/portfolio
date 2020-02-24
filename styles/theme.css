@@ -17,7 +17,13 @@ h1 {
 }
 
 figure {
-        padding-bottom: 2%;
+        margin: 2%;
+        padding: 0px !important;
+}
+
+.main {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
 }
 
 p{
