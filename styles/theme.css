@@ -11,6 +11,12 @@ h1 {
     justify-content: center;
 }
 
+.title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
 .centerbox {
     justify-content: center;
     margin: 3%;
@@ -61,7 +67,9 @@ figure {
 }
 
 p{
-font-size: 18px;}
+font-size: 18px;
+}
+
 
 img{
     max-width: 100% !important;
@@ -157,9 +165,9 @@ margin-top: 5%;
 
 /* individual project */
 body .margin {
-    margin-left: 15%;
-    margin-right: 15%;
-    line-height: 180%;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 200%;
 }
 
 .hmw {
@@ -172,9 +180,10 @@ iframe, object, embed {
 }
 
 .subt{
-    font-size: 28px;
-    border-bottom: solid 5px #ffd66b;
-    padding-bottom: 3px ;
+    font-size: 25px;
+    margin-top: 5%;
+    font-weight: bold;
+    margin-bottom: 2%;
     }
 
 .ezra{
