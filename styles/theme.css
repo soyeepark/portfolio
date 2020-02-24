@@ -186,20 +186,14 @@ iframe, object, embed {
     margin-bottom: 2%;
     }
 
-.ezra{
-    font-size: 28px;
-    border-bottom: solid 5px #ff8a65;
-    padding-bottom: 3px ;
-        }
-
 #twophoto{
     display: flex;
     justify-content: center;
     }
 
 #twophoto img{
-    height: 40%;
-    width: 40%;
+    height: 65%;
+    width: 65%;
     margin: 5%;
     vertical-align: center;
         }
