@@ -22,10 +22,10 @@ figure {
 }
 
 
-.container {
+#container {
   position: relative;
 }
-.overlay {
+#overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -38,11 +38,11 @@ figure {
   background-color: white;
 }
 
-.container:hover .overlay {
+#container:hover .overlay {
   opacity: 1;
 }
 
-.text {
+#text {
   color: rgb(151, 151, 151);
   font-size: 30px;
   font-weight: medium;
