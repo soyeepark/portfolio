@@ -63,7 +63,7 @@ figure {
 
 .main {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 40px;
+    border-radius: 30px;
 }
 
 p{
@@ -163,6 +163,10 @@ margin-bottom: 5%;
 margin-top: 5%;
 }
 
+p .copyright{
+    margin: 2%;
+}
+
 /* individual project */
 body .margin {
     margin-left: 20%;
@@ -192,9 +196,9 @@ iframe, object, embed {
     }
 
 #twophoto2{
-        display: flex;
-        justify-content: center;
-        }
+    display: flex;
+    justify-content: center;
+    }
 
 #twophoto img{
     height: 65%;
@@ -289,6 +293,21 @@ margin-bottom: 5%;
         height: 100%;
         justify-content: center;
     }
+
+    #twophoto, #twophoto2{
+        display: block;
+        justify-content: center;
+        }
+
+    #twophoto img, #twophoto2 img{
+            width: 90%;
+            height: auto;
+            margin: 5%;
+            vertical-align: center;
+            }
+    .bio-photo{
+        margin-top: 7%;
+            }
 
     .intro-text {
         margin-right: 5%;
