@@ -330,7 +330,7 @@ margin-bottom: 5%;
     }
 
     .profile {
-        height: 70%;
+        height: auto;
         width: 70%;
         margin-top: 5%;
         margin-bottom: 5%;
