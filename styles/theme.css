@@ -34,6 +34,11 @@ figure {
 .container {
   position: relative;
 }
+#profile img{
+    max-width: 70%;
+    height: auto;
+}
+
 .overlay {
   position: absolute;
   top: 0;
