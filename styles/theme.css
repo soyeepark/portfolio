@@ -27,18 +27,6 @@ figure {
         padding: 0px !important;
 }
 
-.profile {
-    height: 30%;
-    width: 30%;
-    display: inline-block;
-}
-
-.profile img{
-    height: auto;
-    max-width:100%;
-
-}
-
 .name{
     font-size: 500%;
 }
@@ -327,14 +315,7 @@ margin-bottom: 5%;
         margin-right: 5%;
         margin-left:10%;
         margin-top: 5%;
-    }
-
-    .profile {
-        height: auto;
-        width: 50%;
-        margin-top: 5%;
         margin-bottom: 5%;
-        display: inline-block;
     }
 
 }
