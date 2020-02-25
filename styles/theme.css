@@ -27,6 +27,21 @@ figure {
         padding: 0px !important;
 }
 
+.profile {
+    height: 30%;
+    width: 30%;
+    display: inline-block;
+}
+
+.profile img{
+    height: auto;
+    max-width:100%;
+
+}
+
+.name{
+    font-size: 500%;
+}
 
 .container {
   position: relative;
@@ -95,8 +110,8 @@ img{
 
 /* Work page*/
 .intro-text {
-    margin-right: 2%;
-    margin-top: 5%;
+    margin-right: 15%;
+    margin-top: 8%;
     display: inline-block;
 
 }
@@ -104,8 +119,7 @@ img{
 .me {
     display: flex;
     flex-direction: row;
-    margin-bottom: 10%;
-    margin-top: 10%;
+    margin: 8%;
     justify-content: center;
 }
 
@@ -313,6 +327,14 @@ margin-bottom: 5%;
         margin-right: 5%;
         margin-left:10%;
         margin-top: 5%;
+    }
+
+    .profile {
+        height: 70%;
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: inline-block;
     }
 
 }
