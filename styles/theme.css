@@ -1,28 +1,48 @@
 body {
     font-size: 100%;
+    font-family: 'Playfair Display';
 }
 
 h1 {
-    font-size: 40px;
-}
-
-.coming{
+    font-size: 25px;
     margin-top: 5%;
+}
+
+h3 { 
     margin-bottom: 5%;
-    font-weight: bold;
-    font-size: 50px;
+}
+a{
+    color: white;
 }
 
-.introsmall {
-    font-size: 20px;
-    text-align: center;
+a:hover{
+    color:white;
 }
 
-.shortabout{
-margin-left: 15%;
-margin-right: 15%;
-margin-top: 10%;
-margin-bottom: 10%;
+.topfold{ 
+    background-color: #728EAA;
+    color: white;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+
+.intro{
+    width:60%;
+}
+
+.intro_column{ 
+    margin-top: 10%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.paragraphs{
+    display: inline-block;
+
 }
 
 .box {
@@ -38,7 +58,7 @@ margin-bottom: 10%;
 
 .centerbox {
     justify-content: center;
-    margin: 3%;
+    margin: 5%;
 }
 
 figure {
@@ -58,39 +78,8 @@ figure {
     height: auto;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: white;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: rgb(151, 151, 151);
-  font-size: 18px;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 .main {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
 }
 
 p{
@@ -104,20 +93,23 @@ img{
 }
 
 /* navigation bar */
+
+nav{ 
+    background-color: #728EAA;
+}
 .navbar-brand img{
     width: 20%;
 }
-
 .navbar {
-    padding-right: 12%;
-    padding-left: 12%;
+    padding-right: 10%;
+    padding-left: 10%;
     padding-top: 3%;
 }
 
 .navbar-nav li{
   margin-left:20px;
   margin-right:20px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /* Work page*/
@@ -159,26 +151,6 @@ img{
     width: 20%;
     margin-left: 5%;
 }
-
-/* Fun page */
-/*
-.gallery {
-    width: 95%;
-}
-
-.center {
-    justify-content: center;
-    margin-bottom: 10%;
-    margin-top: 5%;
-}
-
-@media (max-width: 640px) {
-.gallery {
-        width: 80%;
-        padding:5%;
-        margin-left: 10%;
-    }
-} */
 
 /* contacts */
 .copyright {
