@@ -1,94 +1,32 @@
-body {
+/*@import url(//fonts.googleapis.com/css?family=Open+Sans);*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+
+/*Applies to ALL elements on site. */
+* {
     font-size: 100%;
-    font-family: 'Playfair Display';
-}
+    font-family: 'Open Sans', sans-serif;
+    }
 
-h1 {
-    font-size: 35px;
-    margin-bottom: 5%;
-}
-
-p{
+h3{
     font-size: 20px;
     }
-    
-a{
-    color: white;
-}
-
-a:hover{
-    color:white;
-}
-
-.topfold{ 
-    background-color: #728EAA;
-    color: white;
-    height:100vh;
-    display:flex;
-    padding-left: 10%;
-    padding-right: 10%;
-    flex-direction:column;
-    justify-content: center;
-    }
-
-.intro{
-    width: 60%;
-}
-
-.intro_column{ 
-    display:flex;
-    direction:column;
-    justify-content: space-between;
-    margin-top: 8%;
-}
-
-footer p{
-    text-align: center;
-}
 
 
-
-
-
-
-
-.box {
-    margin: 60px 0;
-    justify-content: center;
-}
-
-.centerbox {
-    justify-content: center;
-    margin: 5%;
-}
-
-figure {
-        padding: 0px !important;
-        margin-bottom: 2%;
-}
-
-.name{
-    font-size: 500%;
-}
-
-.container {
-  position: relative;
-}
-#profile img{
-    max-width: 70%;
-    height: auto;
+p{
+    font-size: 16px;
 }
 
 img{
-    max-width: 100% !important;
-    height: auto !important;
+    max-width: 100% ;
+    height: auto ;
+}
+
+.img-fluid {
+    margin: auto;
 }
 
 /* navigation bar */
-
-nav{ 
-    background-color: #728EAA;
-}
 .navbar-brand img{
     width: 20%;
 }
@@ -108,146 +46,46 @@ nav{
     font-size: 25px;
 }
 
-/* Work page*/
-.intro-text {
-    margin-right: 15%;
-    margin-top: 8%;
-    display: inline-block;
+/* index page*/
+.margins{
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.me {
-    display: flex;
-    flex-direction: row;
-    margin: 8%;
-    justify-content: center;
+.hello{
+    margin-top: 10%;
 }
 
-.des {
-    float: right;
-    width: 35%;
-    margin-bottom: 0;
+a:hover{
+    color:black;
 }
 
-.project_image {
-    width: 35%;
-    margin-right: 6%;
+.intro{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.img-fluid {
-    margin: auto;
+.col-md-4{
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
 }
 
-.btn {
-    margin-right: 10px;
+#rounded{
+    border-radius: 10%;
 }
 
-/* About page */
-.bio-photo{
-    width: 20%;
-    margin-left: 5%;
-}
-
-/* contacts */
-.copyright {
-text-align: center;
-margin-right: 10%;
-margin-left: 10%;
-margin-bottom: 5%;
-margin-top: 5%;
-}
-
-p .copyright{
-    margin: 2%;
-}
-
-/* individual project */
-body .margin {
-    margin-left: 20%;
-    margin-right: 20%;
-    line-height: 200%;
-}
-
-.hmw {
-    margin:7%;
-}
-
-iframe, object, embed {
-    max-width: 100%;
+/* footer */
+footer{
     margin-top: 3%;
+    margin-bottom: 3%;
 }
 
-.subt{
-    font-size: 25px;
-    margin-top: 5%;
-    font-weight: bold;
-    margin-bottom: 2%;
-    }
-
-#twophoto{
-    display: flex;
-    justify-content: center;
-    }
-
-#twophoto2{
-    display: flex;
-    justify-content: center;
-    }
-
-#twophoto img{
-    height: 65%;
-    width: 65%;
-    margin: 5%;
-    vertical-align: center;
-    }
-
-#twophoto2 img{
-    height: 50%;
-    width: 50%;
-    margin: 5%;
-    vertical-align: center;
-    }
-
-.img_center{
-    display: block;
-    margin: 0 auto;
-    width: 70%;
-}
-
-#poetry {
-    display: block;
-    margin: auto;
-    padding-bottom: 5%;
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-}
-
-.smaller{
-    width: 40%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-}
-
-.large{
-    width: 100%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-}
-
-.cover {
-margin-top: 2%;
-margin-bottom: 5%;
+footer p{
+    text-align: center;
 }
 
 @media (max-width: 640px) {
-    .intro{
-        width: 100%;
-    }
-
-    .topfold{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
     .navbar-nav li{
         text-align: center;
     }
@@ -268,53 +106,5 @@ margin-bottom: 5%;
             width: 100%;
             height: auto;
         }
-
-    /* copyright */
-    .copyright {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    /* individual protjects */
-    body .margin {
-        margin-left: 8%;
-        margin-right: 8%;
-        line-height: 180%;
-    }
-    .img_center{
-        display: block;
-        margin: 0 auto;
-        width: 100%;
-    }
-    #poetry{
-        display: block;
-        margin: auto;
-        padding-bottom: 5%;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-    }
-
-    #twophoto, #twophoto2{
-        display: block;
-        justify-content: center;
-        }
-
-    #twophoto img, #twophoto2 img{
-            width: 90%;
-            height: auto;
-            margin: 5%;
-            vertical-align: center;
-            }
-    .bio-photo{
-        margin-top: 7%;
-            }
-
-    .intro-text {
-        margin-right: 5%;
-        margin-left:10%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
 
 }
