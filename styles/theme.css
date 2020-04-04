@@ -72,7 +72,7 @@ a:hover{
 }
 
 #rounded{
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 /* footer */
@@ -99,6 +99,10 @@ footer p{
     .des {
         width: 80%;
         text-align: left;
+    }
+
+    #rounded{
+        border-radius: 3%;
     }
 
     /* Bio photo */
