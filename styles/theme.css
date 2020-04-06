@@ -75,6 +75,38 @@ a:hover{
     border-radius: 5%;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+  }
+
+  .text {
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 45%;
+    -webkit-transform: translate(-40%, -40%);
+    -ms-transform: translate(-40%, -40%);
+    transform: translate(-40%, -40%);
+  }
+
+  
+  .col-md-4:hover .overlay {
+    opacity: 1;
+  }
+  
+  .col-md-4:hover .text {
+    opacity: 1;
+  }
+  
 /* footer */
 footer{
     margin-top: 3%;
