@@ -11,8 +11,8 @@
 </head>
 <body>
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"> soyeepark </a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand"> Designed + Built by SoYee Park </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,91 +30,77 @@
 
     <!-- Introduction header-->
     <div class ="intro"> 
-        <h3 class = "hello"> Hello. I'm a product designer studying Information Science at Cornell University </br> Incoming UX Design Intern at Apple Inc. </h3>
+        <h1 class = "hello"> Hello I'm SoYee </br> Designer @ Cornell University </br> Incoming UX Design Intern @ Apple Inc. </h3>
 
         <div class = "d-table-column">
             <div class = "d-inline-block margins">
-                <p> Currently - Exploring Design </br> Conversation Design and 3D Space</p>
+                <h3> Currently - Exploring Design </br> Conversation Design and 3D Space</h3>
             </div>
 
             <div class = "d-inline-block margins">
-                <p> Inspirations - Finding Musings </br> Metaphors, Language, and Poetry </p>
+                <h3> Inspirations - Finding Musings </br> Metaphors, Traveling, and Poetry </h3>
             </div>
 
             <div class = "d-inline-block margins">
-                <p> Let's Talk - Everything Design </br>
-                    <a href = "https://www.linkedin.com/in/soyee-park-6a4b94174/"> LinkedIn, </a>
-                    <a href = "https://medium.com/@soyeepark"> Medium, </a>
-                    <a href = "https://www.instagram.com/soyee.park/"> Instagram, </a>
-                    <a href = "mailto:sp798@cornell.edu"> Email</a>
-                </p>
+                <h3> Let's Talk - Everything Design </br>
+                    <a class = "talk" href = "https://www.linkedin.com/in/soyee-park-6a4b94174/"> LinkedIn, </a>
+                    <a class = "talk" href = "https://medium.com/@soyeepark"> Medium, </a>
+                    <a class = "talk" href = "https://www.instagram.com/soyee.park/"> Instagram, </a>
+                    <a class = "talk" href = "mailto:sp798@cornell.edu"> Email</a>
+                </h3>
             </div>
-
-            <p> Note: Currently, my portfolio is under construction...so the links won't work! </p>
         </div>
-    <!-- projects-->
+
+    <!-- Selected Projects-->
+
+    <h2 class = "titles"> Selected Work — </h1>
+
+    <div class = "hover" onMouseOver = "javascript:changeColorBg ('297FEC')" href = "#">
+        <a href = "#"> 
+            <img class = "largeimg" alt = "fb large" src = "images/fblarge.png" class = "img-fluid" > 
+        </a>
+    </div>
+
+    <div class = "hover" onMouseOver = "javascript:changeColorBg ('297FEC')" href = "#">
+        <a href = "#"> 
+            <img class = "largeimg" alt = "fb large" src = "images/disneylarge.png" class = "img-fluid" > 
+        </a>
+    </div>
+    
+    
+    <script type="text/javascript">
+        function changeColorBg(color){
+            document.bgColor = color;
+        }
+    </script>
+
+
+    <!-- Other-->
+    <h2 class = "titles"> Archive — </h1>
       <div class="row">
-          <div class="col-md-4">
-                <img alt="picture" src="images/fb.png" class="img-fluid">
-                <div class = "overlay"></div> 
-                <div class = "text">
-                    <h3> Facebook Birthday Experience</h3>
-                    <p> UX case study (side-project) </p>
-                </div> 
-            </div>
 
           <div class="col-md-4">
                 <img alt="picture" src="images/sun.png" class="img-fluid" >
-                <div class = "overlay"></div> 
-                <div class = "text">
-                    <h3> Cornell Daily Sun iOS </h3>
-                    <p> Improving the onboarding experience </p>
-                </div> 
+                <p class = "archieve_text"> Cornell Daily Sun iOS </br> Improving onboarding experience </p>
           </div>
 
           <div class="col-md-4">
                 <img alt="picture" src="images/drop.png" class="img-fluid">
-                <div class = "overlay"></div> 
-                <div class = "text">
-                    <h3> Dropbox </h3>
-                    <p> UX Writing Challenge </p>
-                </div> 
+                <p class = "archieve_text" > Dropbox </br> UX Writing Challenge </p>
           </div>
 
           <div class="col-md-4">
             <img alt="picture" src="images/proto.png" class="img-fluid" >
-            <div class = "overlay"></div> 
-            <div class = "text">
-                <h3> Multisensory Prototype </h3>
-                <p> Augmented museum experience </p>
-            </div> 
+            <p class = "archieve_text" > Multisentory Prototype </br> Augmented Museum Experience </p>
          </div>
 
-          <div class="col-md-4">
-                <img alt="picture" src="images/ezra.png" class="img-fluid" >
-                <div class = "overlay"></div> 
-                <div class = "text">
-                    <h3> Ezrabox </h3>
-                    <p> Rebranding and redesign </p>
-                </div> 
-          </div>
-
-          <div class="col-md-4">
-                <img alt="picture" src="images/disney.png" class="img-fluid">
-                <div class = "overlay"></div> 
-                <div class = "text">
-                    <h3> Disney AR Experience </h3>
-                    <p> UX case study (side-project) </p>
-                </div> 
-            
-          </div>
         </div>
 
     </div>
 
     <!-- Footer -->
     <footer>
-        <p>Built with ✨and 💙by me, myself and I </br> © 2020 SoYee Park. All rights reserved. </p>
+        <p> © 2020 SoYee Park. All rights reserved. </p>
     </footer>
 
 

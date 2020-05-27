@@ -6,12 +6,18 @@
 * {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
+    background-color: #25252C;
+    color: white
     }
+
+h1{
+    line-height: 140%;
+}
 
 h3{
     font-size: 20px;
+    line-height: 180%;
     }
-
 
 p{
     font-size: 16px;
@@ -37,28 +43,49 @@ img{
 }
 
 .navbar-nav li{
-  margin-left:20px;
-  margin-right:20px;
+  padding-left:20px;
+  padding-right:20px;
   font-size: 25px;
 }
 
 .navbar-brand {
-    font-size: 25px;
+    font-size: 20px;
+    background: #353535;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 10px;
 }
 
 /* index page*/
+.archieve_text{
+    padding-top: 5%;
+}
+
+.largeimg{
+    padding-top: 3%;
+    padding-bottom:4%;
+}
+
+.titles {
+    padding-top: 5%;
+}
+
 .margins{
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .hello{
-    margin-top: 10%;
+    padding-top: 10%;
 }
 
 a:hover{
-    color:black;
+    color:white;
+}
+
+a{
+    color: white;
 }
 
 .intro{
@@ -71,46 +98,10 @@ a:hover{
     padding-top: 1.5%;
 }
 
-#rounded{
-    border-radius: 5%;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: white;
-  }
-
-  .text {
-    position: absolute;
-    opacity: 0;
-    top: 50%;
-    left: 45%;
-    -webkit-transform: translate(-40%, -40%);
-    -ms-transform: translate(-40%, -40%);
-    transform: translate(-40%, -40%);
-  }
-
-  
-  .col-md-4:hover .overlay {
-    opacity: 1;
-  }
-  
-  .col-md-4:hover .text {
-    opacity: 1;
-  }
-  
 /* footer */
 footer{
-    margin-top: 3%;
-    margin-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 footer p{
@@ -125,8 +116,8 @@ footer p{
     /* work page */
     .project_image {
         width: 100% ;
-        margin-right: 0;
-        margin-bottom: 3rem;
+        padding-right: 0;
+        padding-bottom: 3rem;
     }
     .des {
         width: 80%;
@@ -142,5 +133,4 @@ footer p{
             width: 100%;
             height: auto;
         }
-
 }
