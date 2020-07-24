@@ -11,96 +11,103 @@
 </head>
 <body>
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand"> Designed + Built by SoYee Park </a>
+    <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto topnav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html"> work <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html"> WORK <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html"> about </a>
+                    <a class="nav-link" href="about.html"> ABOUT </a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- Introduction header-->
-    <div class ="intro"> 
-        <h1 class = "hello"> Hello I'm SoYee </br> Designer @ Cornell University </br> Incoming UX Design Intern @ Apple Inc. </h3>
 
-        <div class = "d-table-column">
-            <div class = "d-inline-block margins">
-                <h3> Currently - Exploring Design </br> Conversation Design and 3D Space</h3>
-            </div>
+    <div class = "intro">
+      <h1> 
+        <a href = "about.html" id = "outlinehover"> soyee park — </a></br>
+        product designer at <a href = "https://www.cornell.edu/" target="_blank" id = "outlinehover"> Cornell,</a> </br>
+        UX intern at <a href = "https://www.apple.com/" target="_blank" id = "outlinehover" > Apple Inc. </a> 
+      </h1>
+    </div>
 
-            <div class = "d-inline-block margins">
-                <h3> Inspirations - Finding Musings </br> Metaphors, Traveling, and Poetry </h3>
-            </div>
-
-            <div class = "d-inline-block margins">
-                <h3> Let's Talk - Everything Design </br>
-                    <a class = "talk" href = "https://www.linkedin.com/in/soyee-park-6a4b94174/"> LinkedIn, </a>
-                    <a class = "talk" href = "https://medium.com/@soyeepark"> Medium, </a>
-                    <a class = "talk" href = "https://www.instagram.com/soyee.park/"> Instagram, </a>
-                    <a class = "talk" href = "mailto:sp798@cornell.edu"> Email</a>
-                </h3>
-            </div>
+    <!-- work -->
+    <div class = "row">
+      <div class = "col-md-6">
+        <!-- description -->
+        <div class = "sub"> 
+            <h5> I create delightful and intuitive experiences that empower humans across borders. 
+              Currently, I am exploring interactive technologies in 3D space and conversation design. </h5>
         </div>
 
-    <!-- Selected Projects-->
-
-    <h2 class = "titles"> Selected Work — </h1>
-
-    <div class = "hover" onMouseOver = "javascript:changeColorBg ('297FEC')" href = "#">
-        <a href = "#"> 
-            <img class = "largeimg" alt = "fb large" src = "images/fblarge.png" class = "img-fluid" > 
-        </a>
-    </div>
-
-    <div class = "hover" onMouseOver = "javascript:changeColorBg ('297FEC')" href = "#">
-        <a href = "#"> 
-            <img class = "largeimg" alt = "fb large" src = "images/disneylarge.png" class = "img-fluid" > 
-        </a>
-    </div>
-    
-    
-    <script type="text/javascript">
-        function changeColorBg(color){
-            document.bgColor = color;
-        }
-    </script>
-
-
-    <!-- Other-->
-    <h2 class = "titles"> Archive — </h1>
-      <div class="row">
-
-          <div class="col-md-4">
-                <img alt="picture" src="images/sun.png" class="img-fluid" >
-                <p class = "archieve_text"> Cornell Daily Sun iOS </br> Improving onboarding experience </p>
+        <!-- Apple -->
+        <div style = "margin-bottom: 10%;">
+          <div class = "box">
+            <img alt="picture" src="images/apple.png" class="img-fluid">
+            <div class = "overlay"> 
+              <div class = "toptext"> This work is under NDA. </br> Contact me for details.</div>
+              <div class =  "bottomtext"> APPLE INC.</br> UX INTERNSHIP </div>
+            </div>
           </div>
-
-          <div class="col-md-4">
-                <img alt="picture" src="images/drop.png" class="img-fluid">
-                <p class = "archieve_text" > Dropbox </br> UX Writing Challenge </p>
-          </div>
-
-          <div class="col-md-4">
-            <img alt="picture" src="images/proto.png" class="img-fluid" >
-            <p class = "archieve_text" > Multisentory Prototype </br> Augmented Museum Experience </p>
-         </div>
-
         </div>
 
+        <!-- Ezrabox -->
+        <div style = "margin-bottom: 10%;">
+          <div class = "box">
+            <a href = "ezrabox.html">
+              <img alt="picture" src="images/ezrabox.png" class="img-fluid"> 
+              <div class = "overlay"> 
+                <div class = "toptext"> Reimagining a peer-to-peer storage student startup's visual identity. </div>
+                <div class =  "bottomtext">EZRABOX</br>REBRANDING</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class = "col-md-6">
+      <!-- Facebook --> 
+        <div style = "margin-bottom: 10%;">
+          <div class = "box">
+            <a href = "fb.html">
+              <img alt="picture" src="images/fbfb.png" class="img-fluid"> 
+              <div class = "overlay"> 
+                <div class = "toptext"> Reconnecting friends through birthday celebrations.</div>
+                <div class =  "bottomtext">FACEBOOK BIRTHDAYS</br>SIDE PROJECT</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      <!-- Dropbox -->
+      <div style = "margin-bottom: 10%;">
+        <div class = "box">
+          <a href = "dropbox.html">
+            <img alt="picture" src="images/dropbox.png" class="img-fluid"> 
+            <div class = "overlay"> 
+              <div class = "toptext"> Communicating a full dropbox storage to customers. </div>
+              <div class =  "bottomtext">DROPBOX</br> UX WRITING</div>
+            </div>
+          </a>
+        </div>
+      </div>
+  
+      </div>
+
     </div>
+
+  </div>
 
     <!-- Footer -->
     <footer>
-        <p> © 2020 SoYee Park. All rights reserved. </p>
+        <p> © 2020 SoYee Park. All rights reserved. </br> Built + Designed by SoYee Park</p>
     </footer>
 
 
