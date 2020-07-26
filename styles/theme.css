@@ -115,12 +115,18 @@ footer{
 
 footer p{
     text-align: center;
+    font-size: 15px;
 }
 
 /* Responsive */
 @media screen and (max-width: 1000px) {
     h1{
         font-size: 35px;
+    }
+
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
   }

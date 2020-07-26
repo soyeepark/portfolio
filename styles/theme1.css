@@ -129,6 +129,7 @@ footer{
 
 footer p{
     text-align: center;
+    font-size: 15px;
 }
 
 /* Responsive */
@@ -142,4 +143,11 @@ footer p{
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    .cover img {
+        max-width: 90%;
+        height: auto;
+        background-color: #F2F2F2;
+    }
+    
   }
