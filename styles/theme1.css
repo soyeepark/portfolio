@@ -64,6 +64,14 @@ ol li {
     margin-bottom: 5%;
 }
 
+.final { 
+    background-color: #F2F2F2;
+    padding: 10%;
+    font-size: 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
 .background img {
     height: auto;
     background-color: #F2F2F2; 
