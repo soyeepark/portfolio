@@ -34,8 +34,8 @@ h6{
 
 .container {
     padding-bottom: 5%;
-    padding-left: 6%;
-    padding-right: 10%;
+    padding-left: 2%;
+    padding-right: 4%;
 }
 
 .intro {
@@ -69,7 +69,6 @@ a:hover{
 }
 
 .nav-link {
-    text-decoration: none;
     margin-right: 20px;
     margin-left: 20px;
 }
@@ -78,7 +77,6 @@ a:hover{
     background-color:rgb(255,255,255,0.5);
     padding-top: 80px;
     text-align: center;
-    text-justify: center;
     height:  200px;
 }
 
