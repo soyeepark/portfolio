@@ -15,70 +15,66 @@ copy my work but feel free to get all the inspo you want :) -->
 </head>
 <body>
     <!-- navigation bar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto topnav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html"> Work <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html"> Me </a>
-                </li>
-            </ul>
-        </div>
+    <nav class="navbar navbar-expand-sm">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html"> Work <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html"> About </a>
+            </li>
+        </ul>
     </nav>
 
-    <div style = "padding-top: 20%;">
-        <h1> Braille printer </h1>
-        <h3> Designer & Prototyper / Spring 2021 </h3>
+    <div style = "padding-top: 5%;">
+        <h2> Braille printer </h2>
+        <h4> Designer & Prototyper / Spring 2021 </h4>
     </div>
 
     <img alt="Braille printer" src="images/brailleheader.png" class="img-fluid headerimg">
 
-    <h2> Overview </h2>
-    <h4 style = "padding-bottom: 10px;"> Contributors: Han Wang, Thomas Lu, Shane Yun, Soyee Park </h4>
-    <h4 style = "padding-bottom: 10px;"> Tools: CAD, Laser Cutter, 3D printer, Google Vision API, Arduino </h4>
+    <h3> Overview </h3>
+    <h5 style = "padding-bottom: 10px;"> Contributors: Han Wang, Thomas Lu, Shane Yun, Soyee Park </h5>
+    <h5 style = "padding-bottom: 10px;"> Tools: CAD, Laser Cutter, 3D printer, Google Vision API, Arduino </h5>
 
-    <h4 style = "padding-bottom: 7%;" > The braille printer is a portable image to braille device that aims to simplify communication for people with vision impairment
+    <h5 style = "padding-bottom: 2%;" > The braille printer is a portable image to braille device that aims to simplify communication for people with vision impairment
         or low vision. This project explores ways people with vision impairment can see the world around them. Although braille can
         communicate language, it does not quite instill the same experience as viewing a photo or a picture. By using image processing,
         the prototype attempts to explore ways human-robot interaction can enhance ways of communication for people with disabilities.
-    </h4>
+    </h5>
 
-    <h2> Problem space </h2>
-    <h4 style = "padding-bottom: 10px;"> Our design goal is to create a way to help people with vision impairment can see the world.
+    <h3> Problem space </h3>
+    <h5 style = "padding-bottom: 10px;"> Our design goal is to create a way to help people with vision impairment can see the world.
         People with vision impairment often use their tactile or auditory senses but how might we help them interpret
         the physical space around them visually?
-    </h4>
+    </h5>
 
-    <h4 style = "padding-bottom: 7%;" > Studies have shown that people with visual impairments often lean towards other methods of communication
+    <h5 style = "padding-bottom: 2%;" > Studies have shown that people with visual impairments often lean towards other methods of communication
         than braille because they are limited by the choice of braille texts because creating them are extremely costly.
-    </h4>
+    </h5>
 
-    <h2> Solution </h2>
-    <h4 style = "padding-bottom: 10px;"> The braille printer is a real-time portable image-to-braille printer.
+    <h3> Solution </h3>
+    <h5 style = "padding-bottom: 10px;"> The braille printer is a real-time portable image-to-braille printer.
         A user would take a picture of their surroundings or object using their phone and the image would be translated into braille.
-    </h4>
+    </h5>
 
-    <h4 style = "padding-bottom: 7%;" > Using the Google Vision API, the user’s image will be converted into a variety of labels,
+    <h5 style = "padding-bottom: 2%;" > Using the Google Vision API, the user’s image will be converted into a variety of labels,
         each with a corresponding confidence score, which indicates the level of the association between the label and the image depiction.
         The label with the highest confidence score from the array will be chosen and printed.
         Then the text is translated into braille and then mapped onto the solenoid braille display.
-    </h4>
+    </h5>
 
-    <h2> Process </h2>
+    <h3> Process </h3>
     <img alt="Braille printer" src="images/process1.png" class="img-fluid ">
     <img alt="Braille printer" src="images/process2.png" class="img-fluid ">
     <img alt="Braille printer" src="images/process3.png" class="img-fluid ">
 
-    <h2> Final prototype </h2>
-    <h4 style = "padding-bottom: 5%;">  <a target="_blank" href = "https://www.youtube.com/watch?v=RtAm8iaVxnk "> Click here to view ↗ </a> </h4>
+    <h3> Final prototype </h3>
+    <h5 style = "padding-bottom: 5%;">  <a target="_blank" href = "https://www.youtube.com/watch?v=RtAm8iaVxnk "> Click here to view ↗ </a> </h5>
 
-    <footer>
+    <footer style = "justify-content: space-between;">
         <h6> © 2021 Soyee Park. All rights reserved.<br/> Built + Designed by Soyee Park </h6>
+        <h6 style = "text-align: right;"> Let's connect! Say hi :) <br/> <a href = "mailto:sp798@cornell.edu"> Email ↗ </a> <a href = "https://www.linkedin.com/in/soyeepark/"> LinkedIn ↗ </a> </h6>
     </footer>
 
     <!-- Optional JavaScript -->
